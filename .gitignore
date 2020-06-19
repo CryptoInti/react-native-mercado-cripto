@@ -12,3 +12,7 @@ web-report/
 
 # macOS
 .DS_Store
+
+.vscode/*
+package-lock.json
+yarn-error.log

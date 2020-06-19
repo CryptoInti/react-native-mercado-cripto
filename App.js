@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import PriceTable from "./components/PriceTable";
 import Thead from "./components/Thead";
 import TBTC from "./components/TBTC";
@@ -13,14 +13,14 @@ export default function App() {
   console.log("App ejecutandosensen");
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Header />
       <Thead />
       <TBTC />
       <TETH />
       <TLTC />
       <Footer />
-    </View>
+    </SafeAreaView>
   );
 }
 

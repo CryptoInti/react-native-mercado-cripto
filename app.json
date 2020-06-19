@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ReactNativeDone",
-    "slug": "ReactNativeDone",
+    "name": "react-native-mercado-cripto",
+    "slug": "react-native-mercado-cripto",
     "platforms": [
       "ios",
       "android",
@@ -24,6 +24,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": ""
+    "description": "app para dispositivos moviles de la pagina mercadocripto.cl",
+    "githubUrl": "https://github.com/CryptoInti/react-native-mercado-cripto"
   }
 }

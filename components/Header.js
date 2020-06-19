@@ -16,7 +16,7 @@ class Header extends React.Component {
           style={{
             flex: 1,
             flexDirection: "row",
-            backgroundColor: "grey",
+            backgroundColor: "#212529",
             justifyContent: "center",
             alignItems: "center",
           }}

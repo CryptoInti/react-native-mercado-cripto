@@ -39,13 +39,9 @@ const styles = StyleSheet.create({
     height: "auto",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#212529",
-    borderLeftColor: "#95999c",
-    borderLeftWidth: 1,
-    borderRightColor: "#95999c",
-    borderRightWidth: 1,
-    borderBottomColor: "#95999c",
-    borderBottomWidth: 1,
+    backgroundColor: "#343a40",
+    borderColor: "#95999c",
+    borderWidth: 1,
   },
 });
 

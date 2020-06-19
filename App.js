@@ -9,7 +9,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export default function App() {
-  let x = 1;
   console.log("App ejecutandosensen");
 
   return (

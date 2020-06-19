@@ -10,7 +10,7 @@ class TBTC extends React.Component {
           flexDirection: "row",
         }}
       >
-        <View style={styles.name}>
+        <View style={styles.sBTCrow}>
           <Text style={{ color: "white" }}>BTC</Text>
         </View>
         <View style={styles.sBTCrow}>
@@ -39,26 +39,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     flex: 1,
     height: "auto",
-    backgroundColor: "#343a40",
-    borderLeftColor: "#95999c",
-    borderLeftWidth: 1,
-    borderRightColor: "#95999c",
-    borderRightWidth: 1,
-    borderBottomColor: "#95999c",
-    borderBottomWidth: 1,
-  },
-  name: {
-    alignItems: "center",
-    justifyContent: "center",
-    flex: 1,
-    height: "auto",
-    backgroundColor: "#343a40",
-    borderLeftColor: "#95999c",
-    borderLeftWidth: 1,
-    borderRightColor: "#95999c",
-    borderRightWidth: 1,
-    borderBottomColor: "#95999c",
-    borderBottomWidth: 1,
+    backgroundColor: "#454d55",
+    borderColor: "#95999c",
+    borderWidth: 1,
   },
 });
 

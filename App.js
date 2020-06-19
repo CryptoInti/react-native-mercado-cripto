@@ -1,10 +1,25 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+import PriceTable from "./components/PriceTable";
+import Thead from "./components/Thead";
+import TBTC from "./components/TBTC";
+import TETH from "./components/TETH";
+import TLTC from "./components/TLTC";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function App() {
+  let x = 1;
+  console.log("App ejecutandosensen");
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Header />
+      <Thead />
+      <TBTC />
+      <TETH />
+      <TLTC />
+      <Footer />
     </View>
   );
 }
@@ -12,8 +27,12 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  sBTCrow: {
+    height: 77,
+    backgroundColor: "#454d55",
   },
 });

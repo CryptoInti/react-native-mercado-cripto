@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/getData",
+            "lambdaFunction": "reactnativedoneb9ed8ca8",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "apif50d74d4",
+    "apiName": "apif50d74d4",
+    "functionArns": [
+        {
+            "lambdaFunction": "reactnativedoneb9ed8ca8"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-reactnativedone-dev-145947-authRole",
+        "unAuthRoleName": "amplify-reactnativedone-dev-145947-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "reactnativedoneb9ed8ca8",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

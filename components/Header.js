@@ -1,7 +1,6 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { Svg, Path } from "react-native-svg";
-import iconSvg from "../public/mercado-cripto.svg";
+import { StyleSheet, Text, View, Svg, Path } from "react-native";
+import iconSvg from "../assets/mercado-cripto.svg";
 
 class Header extends React.Component {
   render() {

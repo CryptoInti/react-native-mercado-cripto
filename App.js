@@ -7,6 +7,10 @@ import TETH from "./components/TETH";
 import TLTC from "./components/TLTC";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Amplify from "aws-amplify";
+import config from "./aws-exports";
+
+Amplify.configure(config);
 
 export default function App() {
   console.log("App ejecutandosensen");
